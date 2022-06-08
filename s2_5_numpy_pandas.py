@@ -1,7 +1,7 @@
 import pandas as pd
 df=pd.read_csv('E:/Curso_Analisis_Datos/github/sample_data/02 Introduction to Pandas/intel.csv')
 
-# We create a series using the column Open, and the check its type
+# We create a series using the column Open, and then check its type
 open = df['Open']
 print(type(open))
 
