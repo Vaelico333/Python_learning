@@ -17,5 +17,7 @@ df['Close'].plot(color='g',style='-',legend=True,title='Stock price',
 # g for green, - for line style
 plt.axis(('2017','2018',0,60))
 #plt.title('Stock price')
+
+# Now I can just see it or create a file right away
 #plt.show()
 plt.savefig('df_close.png')
