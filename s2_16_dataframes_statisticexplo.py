@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 stock_prices = pd.read_csv('../../sample_data/03 Data Analysis/tesla.csv')
 
 # Print stock_prices dataframe for review
-#print(stock_prices)
+print(stock_prices)
 
 # Print using the .describe() method
-#print(stock_prices.describe())
+print(stock_prices.describe())
 
 # Print the minimum value of Open
 print(stock_prices['Open'].min())
