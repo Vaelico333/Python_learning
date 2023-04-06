@@ -1,0 +1,12 @@
+# Question: Please complete the code so that it prints out the expected output.
+
+a = [1, 2, 3] 
+'''Expected output: 
+
+Item 1 has index 0
+Item 2 has index 1
+Item 3 has index 2'''
+
+# My answer:
+for i in enumerate(a):
+    print('Item',i[1],'has index',i[0])
